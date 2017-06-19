@@ -8,6 +8,7 @@
     "compile": "tsc",
     "watch": "tsc -w",
     "prepublish": "npm run compile",
+    "prepare": "npm run compile",
     "test": "mocha --compilers ts:ts-node/register ./test/*.ts",
     "lint": "tslint \"src/**/*.ts\" \"test/**/*.ts\""
   },
